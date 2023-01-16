@@ -45,16 +45,25 @@ After that I added a main table inside the building with the main object, an Old
 
 Here's the object blueprint for the pick-up action.
 
+![old jar](https://user-images.githubusercontent.com/114673717/212729825-6e83a684-52ad-4325-ad3e-02ed6ad80917.png)
+
+
 After picking the Old Jar a new object will spawn in the map: a Wheelbarrow. This object will appear in an small open area just behind the house. The player can see trough the house window the spot.
-
-inGame object:
-
-![spawn item](https://user-images.githubusercontent.com/114673717/212701550-e6af0cc9-82fd-45b1-8e15-9b3efa200a88.png)
 
 Reference image:
 
 ![IMG_20211216_080025](https://user-images.githubusercontent.com/114673717/212701975-b8cca755-7411-4912-879a-abcd50c3dd86.jpg)
 
+inGame object:
 
-Finally, I introduced a transparent material as a box collider around the wheelbarrow that allows the player to end the game.
+![spawn item](https://user-images.githubusercontent.com/114673717/212701550-e6af0cc9-82fd-45b1-8e15-9b3efa200a88.png)
+
+Wheelbarrow blueprint:
+
+![wheelbarrow](https://user-images.githubusercontent.com/114673717/212730120-95f0c9d8-861f-4486-a568-bcd050582577.png)
+
+Finally, once the player interacts with the object, the character will be destroyed. Here is the level blueprint for that action.
+
+![map](https://user-images.githubusercontent.com/114673717/212730011-7985d359-baf9-438d-bb79-de747e4b3e1a.png)
+
 
